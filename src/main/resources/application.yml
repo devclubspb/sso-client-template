@@ -1,0 +1,12 @@
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: cabmonsocLocal
+      clientSecret: secret
+      accessTokenUri: http://auth.dev.spb.ias.adc.spb.ru/oauth/token
+      userAuthorizationUri: http://auth.dev.spb.ias.adc.spb.ru/oauth/authorize
+      scope: user_info
+    resource:
+      userInfoUri: http://auth.dev.spb.ias.adc.spb.ru/user/me
